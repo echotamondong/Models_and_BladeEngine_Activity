@@ -7,10 +7,3 @@
     <h1>Book Library 101</h1>
 
 </head>
-<body>
-
-
-
-
-</body>
-</html>
