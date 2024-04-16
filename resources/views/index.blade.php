@@ -8,8 +8,8 @@
                     <th class="px-6 py-3">ID</th>
                     <th class="px-6 py-3">ISBN</th>
                     <th class="px-6 py-3">Title</th>
-                    <th class="px-6 py-3">✍️ Author</th>
-                    <th class="px-6 py-3">📝Description</th>
+                    <th class="px-6 py-3">Author</th>
+                    <th class="px-6 py-3">Description</th>
                     <th class="px-6 py-3">Date Published</th>
                 </tr>
             </thead>
