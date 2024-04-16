@@ -1,5 +1,5 @@
 <footer class>
-<h1> etona ang katapusan </h1>
+<h1 class="text-white text-center"> All rights reserved to the fake book owners hihi </h1>
 </footer>
 </body>
 </html>

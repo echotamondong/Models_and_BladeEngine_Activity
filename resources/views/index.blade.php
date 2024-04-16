@@ -1,32 +1,32 @@
 @include('partials.header')
 
-    <div class="container">
-        <table class="table">
+<body class="bg-red-900">
+    <div class="overflow-x-auto">
+        <table class="shadow-lg bg-white border-red-200">
             <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>ISBN</th>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Description</th>
-                    <th>Date Published</th>
+                <tr class="text-white bg-red-900">
+                    <th class="px-6 py-3">ID</th>
+                    <th class="px-6 py-3">ISBN</th>
+                    <th class="px-6 py-3">Title</th>
+                    <th class="px-6 py-3">Author</th>
+                    <th class="px-6 py-3">Description</th>
+                    <th class="px-6 py-3">Date Published</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody class="text-red-900 text-center">
                 @foreach($books as $book)
-                <tr>
-                    <td>{{ $book->id }}</td>
-                    <td>{{ $book->isbn }}</td>
-                    <td>{{ $book->title }}</td>
-                    <td>{{ $book->author }}</td>
-                    <td>{{ $book->description }}</td>
-                    <td>{{ $book->date_published }}</td>
+                <tr class="bg-red-300">
+                    <td class="px-6 py-4">{{ $book->id }}</td>
+                    <td class="px-6 py-4">{{ $book->isbn }}</td>
+                    <td class="px-6 py-4">{{ $book->title }}</td>
+                    <td class="px-6 py-4">{{ $book->author }}</td>
+                    <td class="px-6 py-4">{{ $book->description }}</td>
+                    <td class="px-6 py-4">{{ $book->date_published }}</td>
                 </tr>
                 @endforeach
             </tbody>
         </table>
     </div>
-
-
+</body>
 
 @include('partials.footer')
